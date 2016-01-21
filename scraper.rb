@@ -5,6 +5,12 @@
 # require 'mechanize'
 #
 # agent = Mechanize.new
+mystringis = 'I want to scrape the BBC website.'
+print mystringis
+urltoscrape http://www.bbc.co.uk/news
+print urltoscrape
+noofnewsstories = 7
+print (noofnewsstories)
 #
 # # Read in a page
 # page = agent.get("http://foo.com")
